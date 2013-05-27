@@ -17,8 +17,7 @@
             "pre-install-cmd": "Silica\\Components\\Script::Install",
             "post-install-cmd":  "Silica\\Components\\Script::Install",
             "post-package-install": "Silica\\Components\\Script::postPackageInstall"
-        }
-
+    },
     "autoload": {
         "psr-0": { "Silica/Components": "src/Silica/Components" }
     }
