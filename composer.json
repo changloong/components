@@ -13,9 +13,12 @@
     "require": {
         "php": ">=5.3.3"
     },
-    "extra": {
-        "class": "Silica\\Components\\Installer"
-    },
+    "scripts": {
+            "pre-install-cmd": "Silica\\Components\\Script::Install",
+            "post-install-cmd":  "Silica\\Components\\Script::Install",
+            "post-package-install": "Silica\\Components\\Script::postPackageInstall"
+        }
+
     "autoload": {
         "psr-0": { "Silica/Components": "src/Silica/Components" }
     }
