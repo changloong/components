@@ -14,8 +14,8 @@
         "php": ">=5.3.3"
     },
     "scripts": {
-            "pre-install-cmd": "Silica\\Components\\Script::Install",
-            "post-install-cmd":  "Silica\\Components\\Script::Install",
+            "post-install-cmd": "Silica\\Components\\Script::Install",
+            "post-update-cmd": "Silica\\Components\\Script::Install",
             "post-package-install": "Silica\\Components\\Script::postPackageInstall"
     },
     "autoload": {
