@@ -19,6 +19,6 @@
             "post-package-install": "Silica\\Components\\Script::postPackageInstall"
     },
     "autoload": {
-        "psr-0": { "Silica\\Components": "src/Silica/Components" }
+        "psr-0": { "Silica\\Components\\Script": "src/Silica/Components/Script.php" }
     }
 }
