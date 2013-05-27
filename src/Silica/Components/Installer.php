@@ -1,15 +1,6 @@
 <?php
 
-/*
- * This file is part of Component Installer.
- *
- * (c) Rob Loach (http://robloach.net)
- *
- * For the full copyright and license information, please view the LICENSE.md
- * file that was distributed with this source code.
- */
-
-namespace ComponentInstaller;
+namespace Silica\Components;
 
 use Composer\Composer;
 use Composer\Installer\LibraryInstaller;
@@ -17,9 +8,6 @@ use Composer\Script\Event;
 use Composer\Package\PackageInterface;
 use Composer\Util\Filesystem;
 
-/**
- * Component Installer for Composer.
- */
 class Installer extends LibraryInstaller
 {
 
