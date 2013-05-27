@@ -1,0 +1,22 @@
+{
+    "name": "silica/components",
+    "description": "The jquery, bootstrap packages",
+    "keywords": ["jquery", "bootstrap"],
+    "homepage": "https://github.com/changloong/components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chang Long",
+            "email": "changlon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "class": "Silica\\Components\\Installer"
+    },
+    "autoload": {
+        "psr-0": { "Silica/Components": "src/Silica/Components" }
+    }
+}
